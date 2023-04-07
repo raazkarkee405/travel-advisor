@@ -130,7 +130,7 @@ const Discover = () => {
                       imageSrc={
                         data?.photo?.images?.medium?.url
                           ? data?.photo?.images?.medium?.url
-                          : ""
+                          : "https://cdn.pixabay.com/photo/2017/09/22/21/43/table-2777180_960_720.jpg"
                       }
                       title={data?.name}
                       location={data?.location_string}
